@@ -36,6 +36,9 @@ module.exports = function(config) {
   config.addPassthroughCopy('node_modules/nunjucks/browser/nunjucks-slim.js');
   config.addPassthroughCopy('src/robots.txt');
 
+  // for now - this is mostly to keep images nested with their posts
+  config.addPassthroughCopy('src/posts');
+
   const now = new Date();
 
   // Custom collections
