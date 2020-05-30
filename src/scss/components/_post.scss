@@ -49,6 +49,14 @@
       -webkit-overflow-scrolling: touch;
     }
 
+    pre.powershell {
+      background: #012456;
+      border: none;
+      margin: 10px 0pt 10px;
+      line-height: normal;
+      font-size: 10pt;
+    }
+
     blockquote {
       border-left: 0.4rem solid var(--color-theme-primary-glare);
       margin-left: 0;
