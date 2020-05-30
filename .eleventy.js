@@ -37,7 +37,7 @@ module.exports = function(config) {
   config.addPassthroughCopy('src/robots.txt');
 
   // for now - this is mostly to keep images nested with their posts
-  //config.addPassthroughCopy('src/posts/**');
+  config.addPassthroughCopy('src/posts/**/images/*');
 
   const now = new Date();
 
